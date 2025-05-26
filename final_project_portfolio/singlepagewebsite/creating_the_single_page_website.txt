@@ -1,0 +1,110 @@
+Creating the single page website
+Task 1
+In index.html, replace the name given in the starter code Jane Doe, with your name in the Home section. You will see that the class is set to profile_name for this div.
+
+In style.css, go to the profile_name class. The codes for floating to the left and padding, have been provided in the starter code. Add a light colour of your choice and an appropriate font size. The sample page uses 30px.
+
+
+Save and test your web page with live server.
+
+Take a screenshot of the home section along with the profile name and save it as profile_name.png.
+
+Task 2
+In the nav bar section, you would notice that the link to the About Me section has been given. Add the other 3 sections: Skills, Projects, Recommendations.
+
+The codes for this class (ie. topmenu) have been given in style.css. The topmenu:hover class has a styling to set the color to white. Add the following style attriburtes to topmenu:hover.
+
+a. The font-weight as bolder
+
+b. The text-decoration as underline
+
+
+Save and test your web page with live server.
+
+Take a screenshot of the home section along with the nav bar showing the hover effect as show in the sample image and save it as nav_bar.png.
+
+Task 3
+Modify the About me section with your name, a unique profile image (different from what is provided in the sample) and a text summary of yourself.
+You may add text about a fictititous person instead of actually providing your personal information.
+
+Click here to learn how to upload an image:
+
+Save and test your web page with live server.
+
+Take a screenshot of the About me section as shown in the sample image and save it as aboutme.png.
+
+Task 4
+In the Skills section, 2 skills have been initially added.
+
+Add 3 or more skills with appropriate logo and text.
+
+Save and test your web page with live server.
+
+Take a screenshot of the skills section as shown in the sample image and save it as skills.png.
+
+Task 5
+In the projects section, 3 projects with sample content have been given.
+
+Please change the project headings and project details from the default ones to your own/fictitious details.
+
+The class is set to project-card.
+
+
+Save and test your web page with live server.
+
+Take a screenshot of the projects section as shown in the sample image and save it as projects.png.
+
+Task 6
+You will notice that 3 Recommendations with random sample text have been initiallly added.
+
+The class name has been set to recommendation in the provided code for all these.
+
+Add at least 3 fictitious recommendations (each of about 25-30 words) in place of these.
+
+
+Save and test your web page with live server.
+
+Take a screenshot of the projects section as shown in the sample image and save it as recommendations.png.
+
+Task 7
+The function addRecommendation() has been in script.js as a part of the starter code. A onClick event to the button with id recommend_btn in provided in index.html, to invoke this function.
+
+Enter a text and click on the button, for the function should be invoked. The text should be added to the list of recommnedations, as shown in the image.
+
+
+Save and test your web page with live server.
+
+Take a screenshot of the updated recommendation section as shown in the sample image and save it as new_recommendation.png.
+
+Task 8
+Home icon has been provided to you in the started code. Look for the portion <a href="#home"> in index.html and add the following code inside it to make it functional and to take you to the start of the page when you click on the home icon.
+1
+2
+3
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+Copied!
+
+Save and test your web page with live server.
+
+Take a screenshot of the bottom of the page as shown in the sample image and save it as home_icon.png.
+
+Task 9
+In Task 7, you must have noticed that a newly submitted recommendation does get added to the exsiting list, however there is no confirmation upon submission. Your final task will be to incorporate that.
+
+**Notice that the function showPopup() has already been provided with complete code in script.js. **
+
+Add the following code inside the addRecommendation() function in the space provided, so that the showPopup() function is invoked onyl when a recommendation is submitted.
+1
+showPopup(true);
+
+Copied!
+Go to div with id popup and add an apporpiate text confirmation message in the space provided.
+
+Save and test your web page with live server.
+
+Take a screenshot of the bottom of the popup message as shown in the sample image and save it as popup.png.
+
+
